@@ -26,7 +26,7 @@ const cards = [
 
 function MembershipGrid() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24">
+    <section className="mx-auto max-w-7xl px-6 py-24 bg-white">
       <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
         <h2 className="max-w-md text-3xl font-medium tracking-tight md:text-4xl">
           Unlock additional testing as a member
