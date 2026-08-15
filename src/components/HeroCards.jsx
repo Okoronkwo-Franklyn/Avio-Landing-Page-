@@ -5,11 +5,11 @@ function HeroCards() {
     <div className="bg-white grid grid-cols-1 gap-1 sm:grid-cols-2">
       {/* Blood Test Card */}
       <div className="min-w-0 rounded-b-lg bg-black p-3 text-white sm:p-4">
-        <p className="text-[8px] uppercase tracking-wider text-white/80 sm:text-[9px]">
+        <p className="uppercase tracking-wider text-white/80 ">
           Blood Test
         </p>
 
-        <p className="mt-1 text-[8px] text-white/50 sm:text-[9px]">
+        <p className="mt-1  text-white/50 ">
           Appointment in 24hrs
         </p>
 
@@ -40,10 +40,10 @@ function HeroCards() {
 
           {/* Saving */}
           <div className="text-right">
-            <p className="text-[7px] text-white/40 sm:text-[8px]">Saved $580</p>
+            <p className=" text-white/40 ">Saved $580</p>
 
-            <p className="mt-1 text-[7px] text-white/70 sm:text-[8px]">
-              $50.00
+            <p className="mt-1 text-white/70 ]">
+              in benefits
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ function HeroCards() {
 
       {/* Activity Score Card */}
       <div className="min-w-0 rounded-b-lg bg-[#263b68] p-3 text-white sm:p-4">
-        <p className="text-[8px] uppercase tracking-wider sm:text-[9px]">
+        <p className="uppercase tracking-wider ">
           Activity Score
         </p>
 
@@ -59,20 +59,20 @@ function HeroCards() {
           {/* Score information */}
           <div className="min-w-0 space-y-1">
             <div className="flex items-center gap-1 rounded bg-white/10 px-2 py-1 sm:gap-2">
-              <span className="text-[8px] sm:text-[9px]">84</span>
+              <span className=" ">84</span>
 
               <Badge
                 tone="dark"
-                className="px-1 py-0.5 text-[5px] sm:px-1.5 sm:text-[6px]"
+                className="px-1 py-0.5 sm:px-1.5 "
               >
                 OPTIMAL
               </Badge>
             </div>
 
             <div className="flex items-center gap-1 rounded bg-white/10 px-2 py-1 sm:gap-2">
-              <span className="text-[8px] sm:text-[9px]">12</span>
+              <span className="">12</span>
 
-              <span className="text-[5px] text-white/50 sm:text-[6px]">
+              <span className="text-bold text-white ">
                 OUT OF RANGE
               </span>
             </div>
@@ -83,9 +83,9 @@ function HeroCards() {
             <div className="absolute inset-[-4px] rotate-45 rounded-full border-[4px] border-transparent border-t-blue-300 border-r-blue-300 sm:inset-[-5px] sm:border-[5px]" />
 
             <div className="text-center">
-              <p className="text-[10px] font-medium sm:text-xs">100+</p>
+              <p className=" font-medium sm:text-xs">100+</p>
 
-              <p className="text-[5px] text-white/50 sm:text-[6px]">Score</p>
+              <p className="text-white ">Score</p>
             </div>
           </div>
         </div>
