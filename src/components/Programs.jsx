@@ -26,7 +26,7 @@ const programs = [
 
 export default function Programs() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-24">
+    <section className="bg-white mx-auto max-w-7xl px-6 pb-24">
       <div className="mx-auto max-w-lg text-center">
         <p className="text-xs font-medium uppercase tracking-wide text-gray-400">
           Programs
