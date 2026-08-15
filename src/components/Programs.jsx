@@ -28,10 +28,10 @@ export default function Programs() {
   return (
     <section className="bg-white mx-auto max-w-7xl px-6 pb-24">
       <div className="mx-auto max-w-lg text-center">
-        <p className="text-xs font-medium uppercase tracking-wide text-gray-400">
+        <p className="text-xs font-medium uppercase tracking-wide text-black">
           Programs
         </p>
-        <h2 className="mt-3 text-3xl font-medium tracking-tight md:text-4xl">
+        <h2 className="mt-3 text-3xl font-medium tracking-tight md:text-4xl text-black">
           Programs designed around your health priorities
         </h2>
       </div>
