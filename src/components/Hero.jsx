@@ -3,7 +3,7 @@ import Badge from "../ui/Badge";
 
 function Hero() {
   return (
-    <section className="bg-white px-6 py-14 sm:px-8 lg:px-12 lg:py-16">
+    <section className="bg-white px-6 py-14 sm:px-8 lg:px-12 lg:py-15">
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           {/* LEFT SIDE */}
