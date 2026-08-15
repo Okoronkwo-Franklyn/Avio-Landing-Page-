@@ -70,7 +70,7 @@ function Hero() {
 
           {/* RIGHT SIDE */}
           <div className="relative">
-            {/* Main image */}
+            
             <div className="relative overflow-hidden rounded-xl">
               <img
                 src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=85"
