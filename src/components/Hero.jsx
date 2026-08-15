@@ -83,7 +83,7 @@ function Hero() {
 
               {/* ECG floating card */}
               <div className="absolute bottom-5 left-5 w-[205px] rounded-xl border border-white/10 bg-black/35 p-4 text-white backdrop-blur-xl sm:bottom-6 sm:left-6">
-                <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center justify-between gap-3">
                   <div>
                     <p className="text-[10px] uppercase tracking-wide text-white/70">
                       ECG Rhythm
