@@ -3,11 +3,7 @@ import Badge from "../ui/Badge";
 function HeroCards() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-24 lg:px-8">
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:ml-auto lg:max-w-md">
-        <div>
-          {/* Card 01 — appointment / savings goes here */}Hero Card
-        </div>
-      </div>
+      
 
       {/* Activity Score Card */}
       <div className="min-w-0 rounded-b-lg bg-[#263b68] p-3 text-white sm:p-4">
