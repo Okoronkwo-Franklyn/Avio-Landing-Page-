@@ -63,7 +63,7 @@ function HeroCards() {
         </div>
       </div>
 
-    </div>
+    </section>
   );
 }
 
