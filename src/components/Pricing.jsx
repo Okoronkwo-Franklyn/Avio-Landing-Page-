@@ -25,18 +25,18 @@ export default function Pricing() {
       <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* Left: heading, CTA, feature rows */}
         <div>
-          <h2 className="text-3xl font-medium leading-tight tracking-tight md:text-4xl">
+          <h2 className="text-3xl font-medium leading-tight tracking-tight md:text-4xl text-black">
             Premium care.
             <br />
             No premium price.
           </h2>
 
-          <p className="mt-4 max-w-sm text-gray-500">
+          <p className="mt-4 max-w-sm text-black">
             Access advanced lab testing without unnecessary costs, through
             flexible plans designed for preventive health.
           </p>
 
-          <Button variant="primary" className="mt-6 w-fit">
+          <Button variant="black" className="mt-6 w-fit">
             View Membership
           </Button>
 
@@ -64,12 +64,12 @@ export default function Pricing() {
           </div>
 
           <div className="absolute bottom-6 left-6 rounded-2xl bg-white px-4 py-3 shadow-lg">
-            <p className="text-xs font-medium text-gray-800">Test Results</p>
-            <p className="text-xs text-gray-400">100+ biomarkers</p>
+            <p className="text-xs font-medium text-black">Test Results</p>
+            <p className="text-xs text-black">100+ biomarkers</p>
           </div>
 
           <div className="absolute bottom-6 right-6 rounded-2xl bg-white px-4 py-3 shadow-lg">
-            <p className="text-xs font-medium text-gray-800">Your Results →</p>
+            <p className="text-xs font-medium text-black">Your Results →</p>
           </div>
         </div>
       </div>
