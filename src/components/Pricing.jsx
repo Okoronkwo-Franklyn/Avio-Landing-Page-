@@ -23,7 +23,7 @@ export default function Pricing() {
   return (
     <section className="bg-white mx-auto max-w-7xl px-6 py-24">
       <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
-        {/* Left: heading, CTA, feature rows */}
+        
         <div>
           <h2 className="text-3xl font-medium leading-tight tracking-tight md:text-4xl text-black">
             Premium care.
@@ -36,7 +36,7 @@ export default function Pricing() {
             flexible plans designed for preventive health.
           </p>
 
-          <Button variant="black" className="mt-6 w-fit">
+          <Button className="bg-black text-white mt-6 w-fit">
             View Membership
           </Button>
 
@@ -53,7 +53,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        {/* Right: image with floating result cards */}
+        
         <div className="relative">
           <div className="overflow-hidden rounded-3xl">
             <img
