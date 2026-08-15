@@ -37,7 +37,7 @@ export default function MembershipGrid() {
         {/* Heading area */}
         <div className="grid items-end gap-8 md:grid-cols-2">
           <div>
-            <h2 className="max-w-xl text-4xl font-medium leading-[1.05] tracking-[-0.04em] text-ink md:text-5xl">
+            <h2 className="max-w-xl text-4xl font-medium leading-[1.05] tracking-[-0.04em] text-ink md:text-5xl text-black">
               Unlock additional testing
               <br />
               as a member
