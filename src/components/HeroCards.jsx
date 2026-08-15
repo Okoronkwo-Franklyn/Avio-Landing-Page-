@@ -40,7 +40,7 @@ function HeroCards() {
 
           {/* Saving */}
           <div className="text-right">
-            <p className=" text-white/40 ">Saved $580</p>
+            <p className=" text-white/40 ">Saved $600</p>
 
             <p className="mt-1 text-white/70 ]">
               in benefits
