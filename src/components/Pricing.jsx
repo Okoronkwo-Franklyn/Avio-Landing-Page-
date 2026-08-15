@@ -21,7 +21,7 @@ const features = [
 
 export default function Pricing() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24">
+    <section className="bg-white mx-auto max-w-7xl px-6 py-24">
       <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
         {/* Left: heading, CTA, feature rows */}
         <div>
