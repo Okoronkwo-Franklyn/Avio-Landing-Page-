@@ -9,14 +9,14 @@ function Hero() {
           {/* LEFT SIDE */}
           <div className="pt-2">
             {/* Eligibility badge */}
-            <Badge className="mb-6">HSA/FSA ELIGIBLE</Badge>
+            <Badge className="mb-6">HSA/FSA ELIGIBLe</Badge>
             <Badge tone="dark"></Badge>
 
             {/* Heading */}
             <h1 className="text-[40px] font-medium leading-[0.95]  text-black sm:text-[60px]">
               Better insights.
               
-              <span className="block text-stone-600">Improved health.</span>
+              <span className="block text-stone-600">Improved health</span>
             </h1>
 
             {/* Description */}
