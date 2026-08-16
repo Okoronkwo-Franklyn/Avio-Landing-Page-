@@ -1,6 +1,6 @@
 function HeroCards() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
+    <section className="mx-auto max-w-7xl px-6 pb-12 lg:px-8 bg-white">
       <div className="grid gap-4 lg:ml-auto lg:max-w-[640px] lg:grid-cols-2">
 
         {/* Appointment / Savings */}
