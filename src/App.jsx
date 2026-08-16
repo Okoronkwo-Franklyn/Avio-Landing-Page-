@@ -4,6 +4,7 @@ import Programs from "./components/Programs"
 import Insights from "./components/Insights"
 import Pricing from "./components/Pricing"
 import MembershipGrid from "./components/MembershipGrid"
+import Footer from "./components/Footer"
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
       <Insights />
       <Pricing />
       <MembershipGrid />
+      <Footer />
 
     </>
   )
