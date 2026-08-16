@@ -17,8 +17,8 @@ const FEATURES = [
 
 function FeatureList() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8 bg-white">
-      <div className="max-w-lg">
+    <section className="bg-white mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+      <div className="max-w-[500px]">
         {FEATURES.map(({ icon: Icon, text }) => (
           <div
             key={text}
@@ -31,7 +31,7 @@ function FeatureList() {
               />
             </span>
 
-            <p className="text-sm text-stone">
+            <p className="text-xs text-stone sm:text-sm">
               {text}
             </p>
           </div>
