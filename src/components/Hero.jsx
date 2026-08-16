@@ -3,14 +3,14 @@ import Button from "../ui/Button";
 
 function Hero() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-10 pt-10 lg:px-8">
+    <section className="mx-auto max-w-7xl px-6 pb-10 pt-10 lg:px-8 bg-white">
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
-        {/* LEFT */}
+   
         <div>
           <Badge>HSA/FSA ELIGIBLE</Badge>
 
-          <h1 className="mt-5 max-w-xl text-5xl font-medium leading-[0.95] tracking-[-0.04em] text-ink md:text-6xl">
+          <h1 className="mt-5 max-w-xl text-5xl font-medium leading-[0.95] tracking-[-0.04em] text-ink md:text-6xl text-black">
             Better insights.
             <br />
             <span className="text-stone">Improved health.</span>
