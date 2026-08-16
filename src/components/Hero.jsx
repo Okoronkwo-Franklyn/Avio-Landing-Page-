@@ -21,7 +21,7 @@ function Hero() {
             health decisions.
           </p>
 
-          <Button variant="black" className="mt-7">
+          <Button variant="black" className="mt-7 bg-black text-white">
             Start Testing
           </Button>
         </div>
