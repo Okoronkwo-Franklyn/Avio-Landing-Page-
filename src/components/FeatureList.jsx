@@ -17,7 +17,7 @@ const FEATURES = [
 
 function FeatureList() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
+    <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8 bg-white">
       <div className="max-w-lg">
         {FEATURES.map(({ icon: Icon, text }) => (
           <div
