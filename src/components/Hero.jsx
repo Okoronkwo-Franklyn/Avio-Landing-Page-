@@ -30,14 +30,14 @@ function Hero() {
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
         {/* ── left: copy, CTA, feature list ─────────────────────────── */}
         <div className="flex flex-col justify-center">
-          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-black/10 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-stone">
+          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-black/10 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-black">
             HSA / FSA eligible
           </span>
 
           <h1 className="text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl">
-            <span className="text-ink">Better insights.</span>
+            <span className="text-black">Better insights.</span>
             <br />
-            <span className="text-stone">Improved health.</span>
+            <span className="text-black">Improved health.</span>
           </h1>
 
           <p className="mt-5 max-w-sm text-sm text-stone">
@@ -61,7 +61,7 @@ function Hero() {
                 <span className="flex h-8 w-8 flex-none items-center justify-center rounded-full bg-black/[0.04]">
                   <Icon className="h-3.5 w-3.5 text-ink" strokeWidth={1.75} />
                 </span>
-                <p className="text-sm text-stone">{text}</p>
+                <p className="text-sm text-black">{text}</p>
               </div>
             ))}
           </div>
@@ -71,7 +71,7 @@ function Hero() {
         <div className="relative">
           <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-stone-800 via-stone-900 to-black">
             <img
-              src="/images/hero-portrait.jpg"
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
               alt="Person mid-motion, backlit against a dark studio background"
               className="h-full w-full object-cover"
             />
@@ -104,7 +104,7 @@ function Hero() {
       {/* ── bottom row: appointment + activity score ────────────────── */}
       <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:ml-auto lg:max-w-md">
         {/* Card 01 — upcoming test + what it saved */}
-        <div className="rounded-2xl border border-black/[0.08] bg-white p-4 shadow-sm">
+        <div className="rounded-2xl border border-black/[0.08] bg-black p-4 shadow-sm">
           <div className="flex items-center justify-between">
             <span className="flex h-7 w-7 items-center justify-center rounded-full bg-black/[0.04]">
               <CalendarCheck className="h-3.5 w-3.5 text-ink" strokeWidth={1.75} />
@@ -122,7 +122,7 @@ function Hero() {
         </div>
 
         {/* Card 02 — activity score progress ring */}
-        <div className="rounded-2xl bg-ink p-4 text-white">
+        <div className="rounded-2xl bg-ink p-4 text-white bg-blue-400">
           <div className="flex items-center justify-between">
             <span className="text-xs font-medium">Activity score</span>
             <span className="rounded-full bg-white/10 px-2 py-0.5 text-[9px] font-medium uppercase tracking-wide">
