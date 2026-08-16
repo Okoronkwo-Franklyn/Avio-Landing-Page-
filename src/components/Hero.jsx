@@ -47,7 +47,7 @@ function Hero() {
 
           <button
             type="button"
-            className="mt-7 w-fit rounded-full bg-ink px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+            className="bg-black text-white mt-7 w-fit rounded-full bg-ink px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
           >
             Start Testing
           </button>
