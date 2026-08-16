@@ -1,5 +1,3 @@
-import Badge from "../ui/Badge";
-
 function HeroCards() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-24 lg:px-8">
@@ -13,51 +11,36 @@ function HeroCards() {
 
         <div className="mt-3 flex items-center justify-between gap-2">
 
-          {/* Score information */}
-          <div className="min-w-0 space-y-1">
-            
-            <div className="flex items-center gap-1 rounded bg-white/10 px-2 py-1 sm:gap-2">
-              <span className="text-[8px] sm:text-[9px]">
-                84
-              </span>
+        {/* Activity Score */}
+        <div className="rounded-2xl bg-[#263d70] p-5 text-white">
+          <div className="flex items-center justify-between">
+            <p className="text-[9px] uppercase tracking-wider text-white/50">
+              Activity Score
+            </p>
 
-              <Badge
-                tone="dark"
-                className="px-1 py-0.5 text-[5px] sm:px-1.5 sm:text-[6px]"
-              >
-                OPTIMAL
-              </Badge>
-            </div>
-
-            <div className="flex items-center gap-1 rounded bg-white/10 px-2 py-1 sm:gap-2">
-              <span className="text-[8px] sm:text-[9px]">
-                12
-              </span>
-
-              <span className="text-[5px] text-white/50 sm:text-[6px]">
-                OUT OF RANGE
-              </span>
-            </div>
+            <span className="rounded-full bg-white/10 px-2 py-1 text-[8px]">
+              OPTIMAL
+            </span>
           </div>
 
-          {/* Circular Score */}
-          <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-[4px] border-white/10 sm:h-14 sm:w-14 sm:border-[5px]">
-            
-            <div className="absolute inset-[-4px] rotate-45 rounded-full border-[4px] border-transparent border-t-blue-300 border-r-blue-300 sm:inset-[-5px] sm:border-[5px]" />
-
-            <div className="text-center">
-              <p className="text-[10px] font-medium sm:text-xs">
-                100+
+          <div className="mt-6 flex items-center justify-between">
+            <div>
+              <p className="text-2xl font-medium">
+                84
               </p>
 
-              <p className="text-[5px] text-white/50 sm:text-[6px]">
+              <p className="text-[9px] text-white/50">
                 Score
               </p>
             </div>
-          </div>
 
+            <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-white/40">
+              <span className="text-xs font-medium">
+                100+
+              </span>
+            </div>
+          </div>
         </div>
-      </div>
 
     </section>
   );
