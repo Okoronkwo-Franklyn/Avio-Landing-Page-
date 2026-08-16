@@ -2,7 +2,7 @@ function Navbar() {
     return (
         <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-100">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-                <div className="text-xl font-semibold text-gray-900">Avolo</div>
+                <div className="text-xl font-semibold text-gray-900">Avio</div>
                 <ul className="flex items-center gap-6 text-sm font-medium text-gray-700">
                     <li className="flex items-center gap-1 cursor-default">
                         How it Works <i className="fas fa-chevron-down text-[10px] text-gray-400"></i>
