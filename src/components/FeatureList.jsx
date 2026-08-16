@@ -1,8 +1,5 @@
 import { Sparkles, UserRound, LineChart } from "lucide-react";
 
-// Three horizontal rows: icon, copy, thin divider. Sits directly under
-// the hero copy in the reference, so it stays narrow and left-aligned
-// rather than spanning the full page width.
 const FEATURES = [
   {
     icon: Sparkles,
@@ -20,17 +17,23 @@ const FEATURES = [
 
 function FeatureList() {
   return (
-    <section className="bg-white mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="max-w-md">
+    <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
+      <div className="max-w-lg">
         {FEATURES.map(({ icon: Icon, text }) => (
           <div
             key={text}
-            className="row-divider flex items-center gap-4 py-4"
+            className="flex items-center gap-3 border-b border-black/10 py-3"
           >
-            <span className="flex h-8 w-8 flex-none items-center justify-center rounded-full bg-black/[0.04]">
-              <Icon className="h-3.5 w-3.5 text-ink" strokeWidth={1.75} />
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#a64d82]">
+              <Icon
+                className="h-3 w-3 text-white"
+                strokeWidth={2}
+              />
             </span>
-            <p className="text-sm text-stone">{text}</p>
+
+            <p className="text-sm text-stone">
+              {text}
+            </p>
           </div>
         ))}
       </div>
@@ -38,4 +41,4 @@ function FeatureList() {
   );
 }
 
-export default FeatureList
+export default FeatureList;
